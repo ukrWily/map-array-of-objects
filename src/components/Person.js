@@ -1,11 +1,10 @@
-function Person({ id, firstName, lastName, email, img }) {
+function Person({ firstName, lastName, email, img }) {
   console.log("Person");
 
   //
   return (
-    <div>
+    <div className="card">
       <img src={img} alt="person" />
-      <div>{id}</div>
       <h3>{firstName}</h3>
       <h3>{lastName}</h3>
       <div>{email}</div>
