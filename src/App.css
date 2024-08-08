@@ -15,9 +15,14 @@
   border-radius: 15px;
   padding: 10px;
   box-shadow: 5px 5px 5px #999;
+  transition: .5s;
 }
 .card > img{
   width: 100%;
   border-radius: 15px 15px 0 0;
-    box-shadow: 3px 3px 3px #666;
+  box-shadow: 3px 3px 3px #666;
+}
+/*  */
+.card:hover{
+  transform: scale(1.05);
 }
